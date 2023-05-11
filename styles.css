@@ -1,0 +1,144 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+.header-container {
+    background-color: #1F2937;
+    color: white;
+    padding: 0 150px;
+}
+
+.header {
+   font-size: 24px; 
+   font-weight: 600;
+   color: #f9faf8;
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 22px
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.intro-container {
+    padding: 130px 0px;
+    display: flex;
+    justify-content: space-between
+}
+
+.intro-content {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.intro-container button {
+    align-self: flex-start;
+    background-color: #3882f6;
+    padding: 8px 34px;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+div .placeholder {
+    height: auto;
+    width: 500px;
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.body-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    padding: 50px;
+    gap: 50px
+
+}
+
+.cards {
+    display: flex;
+    padding-bottom: 75px;
+    gap: 50px
+}
+
+.card {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #6d747d;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.info-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    border: solid 4px #3882f6;
+    margin-bottom: 10px;
+    
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 100px
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    width: 825px;
+    display: flex;
+    flex-direction: column;
+}
+
+.credit {
+    align-self: flex-end;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+}

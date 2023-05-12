@@ -100,6 +100,7 @@ div .placeholder {
     padding-bottom: 75px;
     gap: 50px;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 .card {
@@ -181,4 +182,14 @@ div .placeholder {
     color: #e5e7eb;
     border-radius: 8px;
     border: solid 3px 
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    font-size: 20px;
 }

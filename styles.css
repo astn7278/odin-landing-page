@@ -98,7 +98,8 @@ div .placeholder {
 .cards {
     display: flex;
     padding-bottom: 75px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {

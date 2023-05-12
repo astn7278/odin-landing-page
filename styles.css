@@ -17,8 +17,6 @@ html, body {
 }
 
 .header {
-   font-size: 24px; 
-   font-weight: 600;
    color: #f9faf8;
    padding-top: 20px;
    display: flex;
@@ -163,7 +161,7 @@ div .placeholder {
     gap: 150px;
 }
 
-.action-text {
+.action-text h4 {
     color: #e5e7eb;
     font-weight: 550;
     font-size: 24px;
@@ -172,6 +170,7 @@ div .placeholder {
 .action-text p {
     font-weight: 100;
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 .action-box button {
